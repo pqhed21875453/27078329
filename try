@@ -1,3 +1,4 @@
+} catch (IOException e) {
 OracleJdbcTest test = new OracleJdbcTest();
 test.init();
 out = new BufferedWriter(new FileWriter(”filename”, true));
