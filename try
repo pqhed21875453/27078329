@@ -1,3 +1,4 @@
+String driverClass = "oracle.jdbc.driver.OracleDriver";
 rs.close();
 } catch (IOException e) {
 OracleJdbcTest test = new OracleJdbcTest();
