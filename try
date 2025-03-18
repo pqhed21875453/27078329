@@ -1,3 +1,4 @@
+PreparedStatement ps = con.prepareStatement("select SYSDATE from dual");
 con=DriverManager.getConnection(url, userName, password);
 Connection con;
 String driverClass = "oracle.jdbc.driver.OracleDriver";
