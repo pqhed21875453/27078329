@@ -1,3 +1,4 @@
+con=DriverManager.getConnection(url, userName, password);
 Connection con;
 String driverClass = "oracle.jdbc.driver.OracleDriver";
 rs.close();
