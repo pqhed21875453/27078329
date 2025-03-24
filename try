@@ -1,3 +1,4 @@
+test.fetch();
 } finally {
 ps.close();
 props.load(fs);
