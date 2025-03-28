@@ -1,3 +1,4 @@
+ResultSet rs = ps.executeQuery();
 rs.close();
 out.write(”aString”);
 ps.close();
